@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-container>
+    <v-container fill-height>
       <v-content>
         <router-view />
       </v-content>
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style>
-  body {
+  body, #app {
     background-color: #880E4F;
   }
 </style>

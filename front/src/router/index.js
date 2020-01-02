@@ -8,7 +8,7 @@ let router = new Router({
   mode: 'history',
   routes: [
     {
-      path: '/signup',
+      path: '/register',
       component: SignUpForm
     }
   ]
